@@ -107,7 +107,7 @@ This section contains summary information about the project, the user expections
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">"**name-of-project**"</a></p>
+<p align="center"><a href="https://path-to-deployed-site.com"><strong>Nurished</strong></a></p>
 
 <a href="https://github.com/scientistigwe/README-Template">
 <img src="./assets/images/screenshot.png" alt="Product Screenshot" width="600" height="600">
@@ -115,28 +115,74 @@ This section contains summary information about the project, the user expections
 
 <h2 id="ux">User Experience (UX)</h2>
 
-"**name-of-project**" is a software designed to provide abc services.
+"**Nurished**" is an online platform designed to create a vibrant community of culinary enthusiasts. The primary aim is to allow users to discover, share, and discuss a wide variety of recipes. Users can explore new recipes tailored to their dietary preferences, cuisines, and cooking skills. They can also contribute by uploading their own recipes, complete with detailed instructions and ingredient lists.
 
 The uniqueness of this project are:
 
-- abc
-- xyz
-- 123
-- etc
+1.  **User Profiles:**
+
+- Personalized Experience: Users can create and customize their profiles, showcasing their culinary interests and expertise.
+- Recipe Management: Users can manage their recipes, save their favorites, and share their culinary creations with the community.
+
+2.  **Recipe Upload:**
+
+- Detailed Information: Users can upload recipes with comprehensive details, including ingredients, preparation steps, cooking time, and serving size.
+- Editing and Deleting: Users have the flexibility to edit or delete their recipes as needed.
+
+3.  **Search and Filter:**
+
+- Advanced Search: Users can search for recipes based on various criteria such as ingredients, cuisine, dietary preferences (e.g., vegetarian, gluten-free), cooking time, and difficulty level.
+-  Filtering Options: Users can easily filter search results to quickly find recipes that meet their specific needs.
+
+4.  **Recipe Rating and Reviews:**
+
+- User Feedback: Users can rate recipes they have tried and leave detailed reviews, providing feedback to the recipe creators and helping others decide which recipes to try.
+- View Ratings and Reviews: Users can read ratings and reviews to assess the popularity and quality of recipes.
 
 You can view the deployed website [here](https://path-to-deployed-site.com)
 
 <h2 id="user-stories">User Stories</h2>
 
-- As a new user of this website, I want to easily.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to easily find.......
-- As a new user to this website, I want to meet the team
-- As a user, I want to follow xyz on social media.......
-- etc
+1. **User Profile Creation**
+   - As a user, I want to create a profile so that I can manage my recipes and interact with the community.
+2. **Profile Customization**
+   - As a user, I want to customize my profile with a picture and bio so that other users can learn more about me.
+3. **Recipe Upload**
+   - As a user, I want to upload my own recipes, including ingredients, preparation steps, cooking time, and serving size so that I can share my culinary creations with others.
+4. **Edit Recipe**
+   - As a user, I want to be able to edit my recipes after uploading so that I can make corrections or improvements.
+5. **Delete Recipe**
+   - As a user, I want to delete my recipes if I no longer wish to share them.
+6. **Save Favorite Recipes**
+   - As a user, I want to save my favorite recipes to my profile so that I can easily find and revisit them later.
+7. **Search Recipes**
+   - As a user, I want to search for recipes based on ingredients, cuisine, dietary preferences, cooking time, and difficulty level so that I can find recipes that suit my needs.
+8. **Filter Recipes**
+   - As a user, I want to filter search results by criteria like dietary preference (e.g., vegetarian, gluten-free), cooking time, and difficulty level to quickly find suitable recipes.
+9. **Recipe Rating**
+   - As a user, I want to rate recipes I have tried so that I can share my opinion and help others decide if they want to try the recipe.
+10. **Recipe Reviews**
+    - As a user, I want to write reviews for recipes I have tried so that I can provide detailed feedback to the recipe creator and other users.
+11. **View Recipe Ratings and Reviews**
+    - As a user, I want to view ratings and reviews for a recipe so that I can determine if it’s worth trying.
+12. **Comment on Recipes**
+    - As a user, I want to comment on recipes to ask questions or share tips with the recipe creator and other users.
+13. **Follow Users**
+    - As a user, I want to follow other users so that I can see their new recipes and updates in my feed.
+14. **User Feed**
+    - As a user, I want to have a personalized feed showing new recipes and updates from users I follow.
+15. **Report Inappropriate Content**
+    - As a user, I want to report inappropriate content or recipes so that the site can maintain a positive and respectful community environment.
+16. **Recipe Collections**
+    - As a user, I want to organize my saved recipes into collections (e.g., Breakfast, Desserts) for easier access and management.
+17. **Weekly Newsletter**
+    - As a user, I want to subscribe to a weekly newsletter that features new and popular recipes so that I can stay updated on trending content.
+18. **Recipe Sharing via Social Media**
+    - As a user, I want to share recipes on social media platforms directly from the site so that I can show my friends and followers what I am cooking.
+19. **Ingredient Substitutions**
+    - As a user, I want to see suggested ingredient substitutions for recipes so that I can adjust recipes based on my available ingredients or dietary needs.
+20. **Cooking Tips and Techniques**
+    - As a user, I want access to cooking tips and techniques related to recipes so that I can improve my cooking skills.
 
 <h2 id="technology-stack">Technology Stack</h2>
 
