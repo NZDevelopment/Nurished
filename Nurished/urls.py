@@ -15,8 +15,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from nurishedApp import views  
 
 urlpatterns = [
+    path('', views.HomePage.as_view(), name='home'),  # NZ
     path('admin/', admin.site.urls),
+    path('', include('nurishedApp.urls')),  # Include the urls from your app
 ]
+
+
+#urlpatterns = [
+    #path('', HomePage.as_view(), name='home'), #C
+#    path('', views.HomePage.as_view(), name='home'), #I
+    #path('', HomePage.as_view(), name='home'), #Nz
+#    path('admin/', admin.site.urls),
+#]
+
+

@@ -21,8 +21,7 @@ if os.path.isfile('env.py'):
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-TEMPLATES_DIR = os.path.join(BASE_DIR,
-'templates')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 
 
@@ -48,9 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    #'django.contrib.staticfiles',
-    'nurishedApp',
     'django.contrib.staticfiles',
+    'nurishedApp',
     'cloudinary_storage',
     'cloudinary',
 
@@ -70,8 +68,27 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Nurished.urls'
 
 TEMPLATES = [
+   {
+       'BACKEND': 'django.template.backends.django.DjangoTemplates',
+       'DIRS': [TEMPLATES_DIR],
+       'APP_DIRS': True,
+       'OPTIONS': {
+           'context_processors': [
+               'django.template.context_processors.debug',
+               'django.template.context_processors.request',
+               'django.contrib.auth.context_processors.auth',
+               'django.contrib.messages.context_processors.messages',   
+               '',             
+           ],
+       },
+   },
+]
+
+
+
+TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',        
         'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -79,11 +96,12 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',                
+                'django.contrib.messages.context_processors.messages',
             ],
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'Nurished.wsgi.application'
 
@@ -102,12 +120,12 @@ DATABASES = {
 'default':
 dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
-#DATABASE_URL = os.getenv('DATABASE_URL')
-#DATABASES = {
-#    'default': dj_database_url.config(),
-#}
 
 
+#Nz
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-nzdevelopment-nurished-h57wydwe4eb.ws-eu114.gitpod.io',
+]
 
 
 # Password validation

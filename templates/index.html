@@ -1,0 +1,36 @@
+<!-- NurishedApp/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Site</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Recipe Sharing Site</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Latest Recipes</h2>
+            {% for recipe in recipes %}
+                <div>
+                    <h3><a href="{% url 'recipe_details' recipe.slug %}">{{ recipe.title }}</a></h3>
+                    <p>{{ recipe.description|truncatewords:20 }}</p>
+                </div>
+            {% endfor %}
+        </section>
+        <section>
+            <h2>Most Loved Recipes</h2>
+            {% for recipe in liked_recipes %}
+                <div>
+                    <h3><a href="{% url 'recipe_details' recipe.slug %}">{{ recipe.title }}</a></h3>
+                    <p>{{ recipe.description|truncatewords:20 }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    </main>
+</body>
+</html>
