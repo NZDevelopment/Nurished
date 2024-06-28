@@ -14,12 +14,12 @@
 <!-- PROJECT LOGO (N/B: Replace logo url and image to match your project)-->
 <br />
 <div align="center">
-  <a href="https://github.com/scientistigwe/README-Template">
+  <a href="https://github.com/IkennaEgwim/README-Template">
     <img src="./assets/images/logo.png" alt="Project Logo" width="80" height="80">
     </div>
   </a>
 
-  <h1 align="center">PROJECT TITLE</h1>
+  <h1 align="center">NURISHED</h1>
 
   <p align="center">
  This documentation is a detailed step-by-step breakdown of the planning, design, development, testing & validation, and deployment of Nurished, the ultimate online platform for culinary enthusiasts. Built with Django, HTML, CSS and PostgreSQL, Nurished is designed to create a vibrant community where every recipe is a new adventure.
