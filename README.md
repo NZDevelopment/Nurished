@@ -143,8 +143,7 @@ You can view the deployed website [here](https://nurished-0e1f46f5e548.herokuapp
 - As a user, I want to edit my recipes after uploading so that I can make corrections or improvements.
 
 <h2 id="technology-stack">Technology Stack</h2>
-
-This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**name-of-project**". Add-ons ad plugins are captured in the acknowledgements subsection (N/B: below are dummy samples. Replace with the actual project frameworks and libraries).
+This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**Nurished**". Add-ons ad plugins are captured in the acknowledgements subsection.
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
@@ -152,11 +151,11 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/css3-alt.svg" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/CSS"> CSS3</a> - Used for styling the project.
 
-- <img src="./assets/icons/Google.png" width="20px" align="top"><a href="https://fonts.google.com/"> Google Fonts</a> - Provides all of the fonts for this website.
+- <img src="./assets/icons/Django.png" width="20px" align="top"><a href="https://djangoproject.com/"> Django</a> - Provides the Python framework used for the project development.
+
+- <img src="assets/img/google font.png" width="20px" align="top"><a href="https://fonts.google.com/"> Google Fonts</a> - Provides all of the fonts for this website.
 
 - <img src="./assets/icons/font_awesome.png" width="20px" align="top"><a href="https://fontawesome.com/"> Font Awesome</a> - Used for the site icons.
-
-- <img src="./assets/icons/javascript.png" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/JavaScript"> JavaScript</a> - Used for the hamburger navigation and icons.
 
 - <img src="./assets/icons/github.png" width="20px" align="top"><a href="https://github.com/IrisSmok"> Github</a> - Used to store the project code.
 
@@ -166,57 +165,48 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
 
-- <img src="./assets/icons/google_map.png" width="20px" align="top"><a href="https://google-map-generator.com/"> Google Map Generator</a> - Used to import business location.
-
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
 - <img src="./assets/icons/IMG2GO.png" width="20px" align="top"><a href="https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7"> IMG2GO</a> and <img src="./assets/icons/Tiny_PNG.png" width="20px" align="top"><a href="https://tinypng.com/"> Tiny PNG</a> - Used to help compress the images.
 
-- <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
-
-- <img src="./assets/icons/next_js.png" width="20px" align="top"><a href="[Next-url]"> Next.js</a> - Used for server-side rendering and building modern, scalable web applications.
-
-- <img src="./assets/icons/react..png" width="20px" align="top"><a href="[React-url]"> React.js</a> - Used for building user interfaces, especially single-page applications.
-
-- <img src="./assets/icons/Vue_js.png" width="20px" align="top"><a href="[Vue-url]"> Vue.js</a> - Used for building interactive web interfaces and single-page applications.
-
-- <img src="./assets/icons/angular.png" width="20px" align="top"><a href="[Angular-url]"> Angular</a> - Used for building large-scale, high-performance web applications.
-
-- <img src="./assets/icons/svelte.png" width="20px" align="top"><a href="[Svelte-url]"> Svelte</a> - Used for building fast, lightweight web applications with minimal overhead.
-
-- <img src="./assets/icons/laravel.png" width="20px" align="top"><a href="[Laravel-url]"> Laravel</a> - Used for building web applications with elegant syntax and a robust ecosystem.
-
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- <img src="./assets/icons/jquery.png" width="20px" align="top"><a href="[JQuery-url]"> jQuery</a> - Used for simplifying HTML document traversing, event handling, and animation.
-
 <h2 id="management-and-development">Project Management and Development Approach</h2>
+
 
 This project was implemented using the Agile Manifesto methodology. Below are the ways this project adhered to the 4 core values and 12 core principles of the aforementioned method:
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held [**number of meetings**] planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
-- **a screenshot or graphic representation of a Zoom meeting with team members.**
+- Vision 1: Customer collaboration over contract negotiation: The Team held **16** Hurdles through Slack Platform, ensuring alignment with user needs and prioritizing features through user story mapping.
 
-- Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io/github/issues-closed/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) + [![GitHub issues](https://img.shields.io/github/issues/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
-  **A screenshot of the GitHub project board demonstrates their flexibility.**
+<p align="center"><strong>A screenshot of a one of the team's huddles through slack.</strong></p>
+<img src="assets/img/meeting screenshot.jpg" alt="Screenshot of the team's huddle" width="600" height="100%">
+<br>
+<br>
 
-- Vision 3: Working software over comprehensive documentation: **[Sample description]** Achieved **[number of story points]** across **[number of sprints]**, emphasizing the focus on delivering functional software increments.
-- **A snapshot of the scrum/kanban board tracks their progress.**
+- Vision 2: Responding to change over following a plan: Throughout the project, the team managed
+  [![GitHub issues](https://img.shields.io/github/issues-closed/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) + [![GitHub issues](https://img.shields.io/github/issues/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) GitHub issues, adapting to changing requirements and feedback iteratively.
 
-- Vision 4: Individuals and interactions over processes and tools
-  Description: Daily interactions on GitHub led to **[number of commits]**, fostering collaboration and knowledge sharing among team members.
-- **A snapshot of GitHub issue discussions illustrates their collaborative environment.**
+- Vision 3: Working software over comprehensive documentation: We achieved **16 story points** across **1 sprint**, emphasizing the focus on delivering functional software increments.
+<p align="center"><strong>A screenshot of Github activities ilustrating collaborative environment.</strong></p>
+<p align="center"><strong>A screenshot of Kanban Board.</strong></p>
+<img src="assets/img/kanban-board.PNG" alt="Screenshot of the team's huddle" width="600" height="100%">
+<br>
+<br>
+
+- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **29 commits**, fostering collaboration and knowledge sharing among team members.
+
+<br>
+<br>
 
 <strong>Twelve Principles of the Agile Manifesto</strong>
 
-- Satisfy the customer: Held regular stakeholder meetings to ensure alignment with customer needs.
+- Satisfy the customer: Held regular meetings to ensure alignment with user stories.
 - Deliver working software: Prioritized delivering functional increments in each sprint, allowing for early feedback.
 - Welcome changing requirements: Maintained open communication channels and adapted plans iteratively.
-- Collaborate daily: Conducted **(frequency of standup) stand-up** meetings to facilitate collaboration and problem-solving.
-- Face-to-face conversation: Utilized **in-person and/or virtual meetings (select one or all the options)** to enhance clarity and understanding.
+- Collaborate daily: Conducted daily standup, catchup and stand-down to facilitate collaboration and problem-solving.
+- Face-to-face conversation: Utilized over 15 virtual meetings through slack huddle to enhance clarity and understanding.
 - Motivated individuals: Empowered team members through skill development and recognition.
 - Measure progress through working product: Evaluated progress based on delivered functionality in each sprint.
 - Promote sustainable development: Prioritized sustainability practices to ensure long-term success.
@@ -227,41 +217,18 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- PROJECT SETUP -->
 
 #
 
 <h1 id="project-setup">SECTION 2: PROJECT SETUP</h1>
 
-In this section, a detailed account of all requirements needed for "**name-of-project**" to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
+In this section, a detailed account of all requirements needed for Quid Pro to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
 
 <h2 id="prerequisites">Prerequisites</h2>
 
-Below are the list of softwares required to setup and start using "**name-of-project**" (N/B: if no installation is required. Then write: "**name-of-project**" does not rely on any external dependencies or services.):
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- etc
-
-<h2 id="installation">Installation</h2>
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+Quid Pro does not rely on any external dependencies or services.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -269,145 +236,106 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <h1 id="features-and-structure">SECTION 3: PROJECT FEATURES AND STRUCTURE</h1>
 
-This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of ["**name-of-project**"] website. It outlines the key features and structural components intended to provide visitors with a seamless and informative journey through the platform.
+This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of Nurished. It outlines the key features and structural components intended to provide users with a seamless and informative journey through the platform.
 
 <h1 id="features">Features</h1>
 
-The key features are:
+Nurished is packed with several key features that make it a unique. Here are the main features that define the Nurished experience:
 
-- <strong>Navigation:</strong> Designed to facilitate users effortlessly access to different sections and pages.
-- <strong>Services:</strong> Provides comprehensive information about the services offered by the project.
-- <strong>Pricing:</strong> Provides corresponding prices on services offered by ["**name-of-project**"], enabling users to make informed decisions about their choices.
-- <strong>Testimonials:</strong> Showcases testimonials and highlights positive experiences from previous clients, fostering trust and credibility among potential customers.
-- <strong>Gallery:</strong> Presents a visually appealing gallery displaying a pictorial representation of ["**name-of-project**"], serving as a source of inspiration for clients.
-- <strong>Contact Form:</strong> Offers a user-friendly contact form that simplifies the process of reaching out to the team. This will empower clients to submit inquiries, book appointments, or provide feedback seamlessly.
-- <strong>Contact Information:</strong> Displays essential contact details of the team prominently on the website, ensuring users can easily reach out to the establishment via phone, email, or physical address.
-- <strong>Social Links:</strong> Includes links to the company's social media profiles, enabling users to stay connected and updated with the latest news, promotions, and announcements.
-- <strong>Responsive Design:</strong> Ensures that the website is accessible and functional across various devices and screen sizes, providing a consistent user experience.
-- <strong>Interactive Elements:</strong> Incorporates interactive elements such as buttons, sliders, and hover effects to enhance user engagement and interactivity, making the browsing experience more enjoyable and intuitive.
+### 1. User Profiles:
 
-- Other features to be implemented in the future include:
+- Users can create and customize profiles to manage recipes and interact with the community.
+- Profile customization includes adding a picture and bio for personalization.
 
-- <strong>Online Booking:</strong> Implementing an online booking system that enables clients to schedule appointments directly through the website, offering convenience and flexibility in selecting desired dates and times for their visits.
+### 2. Recipe Management:
 
-- <strong>ChatBot:</strong>: An AI-powered self service system that will guide and direct clients based on their specific needs.
+- Upload, edit, and delete recipes with detailed information on ingredients, preparation steps, cooking time, and serving size.
+
+### 3. Search and Filter:
+
+- Advanced search capabilities allow users to find recipes based on ingredients, cuisine, dietary preferences, cooking time, and difficulty level.
+- Filters enable quick navigation through search results.
+
+### 4. Recipe Interaction:
+
+- Save favorite recipes for easy access.
+- Organize saved recipes into collections like Breakfast or Desserts.
+- Rate and review recipes to share feedback and help others decide on recipes to try.
+- View ratings and reviews to assess recipe popularity and quality.
+
+### 5. Social Features:
+
+- Comment on recipes to engage with creators and other users.
+- Follow other users to stay updated on their new recipes and activities.
+- Personalized user feed showcasing updates from followed users.
+
+### 6. Additional Features:
+
+- Subscribe to a weekly newsletter featuring new and popular recipes.
+- Share recipes via social media platforms directly from the site.
+- Report inappropriate content to maintain a positive community environment.
+- Access ingredient substitutions and cooking tips to enhance culinary skills.
 
 <h2 id="structure-and-navigation">Structure and Navigation</h2>
+- **Project Structure**
+
+### 1.  Backend:
+
+- Built with Django, handling server-side logic, database management (PostgreSQL), and user authentication.
+- Utilizes Django REST Framework for creating APIs.
+
+### 2. Frontend:
+
+-  Developed without React for a dynamic and responsive user interface.
+-  UI components designed using Bootstrap for a visually appealing experience across devices.
+
+### 3. Deployment:
+
+-  Deployed on Heroku for scalability and accessibility.
+-  Uses SQLite PostgreSQL for database storage.
 
 - **File Organisation**
 
   - The files where structured into folders and clustered based on functionality. Also file naming convention that reflects the functions of the conetent of the file was adopted.
-
-- **Header**
-
-  - "**name-of-project**" logo positioned [left|right|center]
-  - Appears on every page
-
-- **Nav bar**
-
-  - Appers on every page
-  - Navigation bar on the [left|right|center]
-
-- **Menu items**
-
-  - Appers on every page
-  - Directs users to specific page
-
-- **Footer**
-
-  - Includes a [contact information, contact form, newsletter, Resources and social links] (N/B: adjust as appropriate)
-  - Appears on every page
-
-- **Home Page**
-  - _Hero image_ - appears at the top-[left|right|center] of the home page, below the header section.
-  - _Testimonials_ - just below the "**name-of-section**" section, responsively arrange to maximize various device screen width and give users a good experience.
-  - _Call to action buttons_ - provides an easy portal to other specific page of "**name-of-project**".
-- **Services** - Services has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Pricing** - Pricing and Plans has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Our Team** - Our Teams has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Gallery** - Gallery has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Contact Us** - This is located at the [left|right|center] of the footer.
 
 <h2 id="wireframes">Wireframes</h2>
 
 ### _File Organisation Tree_
 
 <p align="center">
-<img src="wireframe/file_org_tree.png" width="600" height="700">
+<img src="assets/img/New Wireframe 1.png" width="600" height="700">
 </p>
 
 ### _Home Page_
 
 <p align="center">
-<img src="wireframe/home-page.png" width="600" height="700">
+<img src="assets/img/New Wireframe 2.png" width="600" height="700">
 </p>
 
-### _Services & Prices_
-
-<p align="center">
-<img src="wireframe/services-prices.png" width="600" height="900">
-</p>
-
-### _OurTeam_
-
-<p align="center">
-<img src="wireframe/our-team.png" width="600" height="900">
-</p>
-
-### _Gallery_
-
-<p align="center">
-<img src="wireframe/gallery.png" width="600" height="900">
-</p>
-
-### _Contact Us_
-
-<p align="center">
-<img src="wireframe/contact.png" width="600" height="900">
+<img src="assets/img/New Wireframe 3.png" width="600" height="900">
 </p>
 
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="wireframe/mobile-home-page.png" width="400" height="1000">
+<img src="assets/img/New Wireframe mobile1.png" width="400" height="1000">
 </p>
 
 <h2 id="design-and-styling">Design and Styling</h2>
 
 <h3 id="design">Design</h3>
 
-Given the serene ambiance of the establishment, the website echoes this sentiment through its design. Employing a predominantly white background conveys cleanliness, brightness, and sterility—attributes associated with a tranquil setting. Complementary background hues evoke a sense of calmness, while vibrant and colorful imagery aims to immerse visitors in the **[name of project]** ambiance.
+**Nurished** provides a comprehensive platform for culinary enthusiasts to explore, share, and discuss recipes. With a focus on user-friendly features like robust recipe management, advanced search options, and interactive social capabilities, Nurished fosters a vibrant community centered around culinary creativity and discovery.
 
 <h3 id="color">Color</h3>
 
-- **Main background color - **#color hex** (color name)** - I chose this color because **\*\***\***\*\***
-- **h1 headings and nav bar - [color]** - reason
-- **h2 headings - [color]** - reason
-- **p - [color]** - reason
-- **footer - [color]** - reason
+- #dac4fb (Purple) - We chose this color to have a welcominng background.
 
 <h3 id="font">Font</h3>
 
-- main font: Font name
-- Secondary font - Font name
+- main font: Reddit Mono
+- Secondary font - Monospace
 
-<h3 id="media">Media</h3>
-
-**Hero image** - short description and reason for selection
-
-**Contact section** - short description and reason for selection
-
-**Services** - short description and reason for selection
-
-**Plans and Pricing** - short description and reason for selection
-
-**Our Team** - short description and reason for selection
-
-**Gallery** - short description and reason for selection
-
-**Contact Us** - short description and reason for selection
-
-**etc** - short description and reason for selection
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -421,76 +349,33 @@ Given the serene ambiance of the establishment, the website echoes this sentimen
 
 - **Responsiveness Testing:** Utilized Chrome Developer Tools to verify responsiveness across multiple devices: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPad, iPad Pro, Galaxy Fold
 
-<h2 id="validation">Validation</h2>
+h2 id="validation">Validation</h2>
 
 The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
 
-- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
+- [HTML W3C Validator](https://validator.w3.org/#validate_by_input): I checked each page by direct input method on HTML validator site.
 
 <p align="center">
-<img src="assets/images/readme/html-validator.png" width="400" height="100%">
+<img src="assets/img/html_check.PNG" width="600" height="100%">
 </p>
 
-- [CSS](https://jigsaw.w3.org/css-validator/)
+- [CSS W3C Validator](https://jigsaw.w3.org/css-validator/): I checked each page by direct input method on HTML validator site. No error or warning message was encountered following this test.
 
 <p align="center">
-<img src="assets/images/readme/css-validator.png" width="400" height="100%">
+<img src="assets/img/css-check.PNG" width="600" height="100%">
 </p>
 
-- I used Lighthouse tools to test my website
-<p align="center">
-<img src="assets/images/readme/lighthouse.png" width="400" height="100%">
-</p>
+
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
 
-- _Warning_ : [details of any warning]
-
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
+- No error or warning message was encountered following this test.
+- We did have some errors originaly but we fixed them as it was as simple as "change image to img"
 
 <h3 id="css-validator-report">CSS Validator Report</h3>
 
-- _Warning_ : [details of any warning]
+- No error or warning message was encountered following this test.
 
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
-
-<h2 id="user-story-testing">User Story Testing</h2>
-
-- **User Story 1:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-- **User Story 2:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-reapeat for all user stories
-
-<h2 id="bugs-and-issues">Bugs and Issues</h2>
-
-- Detail any bug and/or issues encountered, steps taken to correct it. Add images if possible.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #
 
@@ -500,12 +385,12 @@ reapeat for all user stories
 
 <h2 id="final-product">Final Product</h2>
 
-- The product is live and can be seen on **[url of deployed site]**
+- The website is live and can be seen on https://nurished-0e1f46f5e548.herokuapp.com/
 
-### _Home Page_
+### _Home Page on various screens_
 
 <p align="center">
-<img src="assets/images/readme/desktop-home-page.png" width="600" height="100%">
+<img src="assets/img/responsive-home.PNG" width="600" height="100%">
 </p>
 
 - Add images of various sections of the final product as above.
@@ -514,14 +399,12 @@ reapeat for all user stories
 
 <h3 id="template">Template</h3>
 
-- This template was adopted and adapted from README.md templates published by <a href="https://github.com/scientistigwe/README-Template" alt="Github page of Chibueze C. Igwe" target="_blank">Chibueze C. Igwe</a>, <a href="https://github.com/Iris-Smok/Vannas-Beauty-Salon_PP1" alt="Github page of Iris Smok" target="_blank">Iris Smok</a> and <a href="https://github.com/othneildrew/Best-README-Template" alt="Github page of Othneil Drew" target="_blank">Othneil Drew</a>.
+- This template was adopted and adapted from README.md templates published by <a href="https://github.com/IkennaEgwim/README-Template" alt="Github page of Ikenna Egwim" target="_blank">Ikenna Egwim</a>, <a href="https://github.com/Iris-Smok/Vannas-Beauty-Salon_PP1" alt="Github page of Iris Smok" target="_blank">Iris Smok</a> and <a href="https://github.com/othneildrew/Best-README-Template" alt="Github page of Othneil Drew" target="_blank">Othneil Drew</a>.
 
 <h3 id="content">Content</h3>
 
-- All content was written by [**Your Name**]
-- Mention sections that was not original and the source where it was adopted from.
+- All content was written by **Ikenna Egwim**.
 
-- I utilized the guidance provided by [Responsive navbar and hamburger menu](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci) to develop the responsive navbar and hamburger menu.
 
 <h3 id="media2">Media</h3>
 
@@ -532,22 +415,23 @@ reapeat for all user stories
 
 Use this space to list individuals, groups or resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-- [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <!-- CONTACT -->
 
 <h2 id="contact">Contact</h2>
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+- Ikenna Egwim - [Email Address](egwimik@gmail.com); 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+- Safi Hasan - [Email Address](egwimik@gmail.com);
+
+- Diana Labode - [Email Address](egwimik@gmail.com);
+
+- Nidhal Zarrad  - [Email Address](egwimik@gmail.com); 
+
+- Project Link: [https://github.com/NZDevelopment/Nurished)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </section>
